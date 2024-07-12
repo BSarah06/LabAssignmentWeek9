@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gallery of a Foodie</h1>
+        <div id="filters">
+            <button data-filter="all">All</button>
+        </div>
+    </header>
+    <section id="gallery">
+        <div class="photo category1"><img src="images/pizza.jpg" alt="Pizza"></div>
+        <div class="photo category2"><img src="images/sushi.jpg" alt="Sushi"></div>
+        <div class="photo category1"><img src="images/burger.jpg" alt="Burger"></div>
+        <div class="photo category2"><img src="images/icecream.jpg" alt="Ice Cream"></div>
+        <div class="photo category1"><img src="images/pasta.jpg" alt="Pasta"></div>
+        <div class="photo category2"><img src="images/salad.jpg" alt="Salad"></div>
+    </section>
+    <div id="lightbox" class="lightbox">
+        <span id="close" class="close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Lightbox Image">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
